@@ -1,5 +1,6 @@
 FROM puppet/puppetserver-standalone:2.7.2
 MAINTAINER Gareth Rushgrove "gareth@puppet.com"
+USER puppet
 
 ENV PUPPETDB_TERMINUS_VERSION="4.3.0"
 
